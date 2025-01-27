@@ -1,0 +1,571 @@
+.customContainer{
+    height: 100px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.customNav{
+    float: none;
+    display: flex;
+    padding-left: 500px;
+}
+.customNav > li {
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav>li>a {
+    padding: 0;
+}
+.navbar p {
+    padding-top: 10px;
+}
+.customNav li a{
+    height: 100px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customNav{
+    float: none;
+}
+.navbar a:hover{
+    color: green;
+}
+.navbar li:hover p{
+    color: green;
+}
+.navbar li:hover{
+    border-color: green;
+    border-bottom-style:solid;
+}
+.customNavHeader{
+    margin:0;
+    height: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 6px;
+}
+.navbar {
+    border-style: none;
+}
+.carousel-inner{
+    height: 700px;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+    object-position: 0 -250px;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.carousel-indicators > li{
+    width: 40px;
+    height: 5px;
+}
+.carousel-indicators .active{
+    width: 40px;
+    height: 5px;
+}
+.carousel-indicators{
+    margin-bottom: 230px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    left: 0;
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+
+}
+.carousel-caption h2{
+    border-bottom: white solid 5px;
+    border-top: white solid 5px;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+    height: 120px;
+    width: 450px;
+}
+.carousel-caption {
+    right: 0;
+    bottom: 250px;
+    left: 0;
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+}
+hr{
+    width: 5px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.left{
+    z-index: 16;
+}
+.right{
+    z-index: 16;
+}
+.infoContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.infoContainer h2{
+    font-weight: bold;
+}
+.infoContainer p{
+    font-size: 18px;
+}
+.iconBlock1{
+    margin-bottom: 100px;
+    display: flex;
+    float: left;
+    justify-content: flex-end;
+}
+.iconBlock2{
+    margin-bottom: 100px;
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+}
+.iconText{
+    width: 26%;
+    margin-left: 30px
+}
+.iconText h3{
+    font-weight: bold;
+}
+.iconText p{
+    font-size: 20px;
+}
+
+.image1{
+    height: 250px;
+    background-image: url('images/pantera.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.image2{
+    height: 250px;
+    background-image: url('images/metallica.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.image3{
+    height: 250px;
+    background-image: url('images/deftones.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.image4{
+    height: 250px;
+    background-image: url('images/korn.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.image-container > div:hover::before {
+    content: "Project Name";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.image-container > div:hover::before {
+    opacity: 1;
+}
+.image-container .image1,
+.image-container .image2,
+.image-container .image3,
+.image-container .image4 {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.image-container .image1 svg,
+.image-container .image2 svg,
+.image-container .image3 svg,
+.image-container .image4 svg {
+    display: none;
+}
+.image-container .image1:hover svg,
+.image-container .image2:hover svg,
+.image-container .image3:hover svg,
+.image-container .image4:hover svg {
+    display: block;
+}
+.image-container p{
+    font-size: 20px;
+    color: white;
+    margin-top:20px;
+    margin-bottom: 35px;
+}
+.image-container .image1 p,
+.image-container .image2 p,
+.image-container .image3 p,
+.image-container .image4 p {
+    display: none;
+}
+
+.image-container .image1:hover p,
+.image-container .image2:hover p,
+.image-container .image3:hover p,
+.image-container .image4:hover p {
+    display: block;
+}
+.image-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infoContainer2{
+    display: flex;
+    float: left;
+    justify-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+.infoContainer2 .btn{
+    margin-top: 10px;
+    border: white solid 2px;
+    color: white;
+    background-color: green;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.infoContainer2 .btn:hover{
+    background-color: white;
+    color: green;
+    border-color: white;
+    font-weight: bold;
+}
+
+.iconBlock3{
+    margin-bottom: 100px;
+    display: flex;
+    float: left;
+    justify-content: flex-end;
+    object-position: center;
+}
+.iconBlock4{
+    margin-bottom: 100px;
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+    object-position: center;
+}
+.img-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.imgMarginRight{
+    margin-right: 70px;
+}
+.imgMarginRight2{
+    margin-right: 20px;
+}
+.imgMarginLeft2{
+    margin-left: 20px;
+}
+.infoContainer3{
+    display: flex;
+    float: left;
+    justify-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
+    padding: 35px 0;
+}
+.infoContainer3 .btn{
+    border: green solid 2px;
+    color: green;
+    background-color: #e3e3e3;
+    margin-left: 200px;
+    font-weight: bold;
+    width: 200px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.infoContainer3 .btn:hover{
+    background-color: green;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+}
+.imgMarginRight,
+.imgMarginRight2,
+.imgMarginLeft2,
+.iconBlock4 div {
+    position: relative;
+}
+
+.imgMarginRight::before,
+.imgMarginRight2::before,
+.imgMarginLeft2::before,
+.iconBlock4 div::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 128, 0, 0.56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.imgMarginRight:hover::before,
+.imgMarginRight2:hover::before,
+.imgMarginLeft2:hover::before,
+.iconBlock4 div:hover::before {
+    opacity: 1;
+}
+.imgMarginRight::before {
+    content: "AXL ROSE";
+}
+
+.imgMarginRight2:hover::before {
+    content: "CHINO MORENO";
+}
+
+.imgMarginLeft2:hover::before {
+    content: "JONATHAN DAVIS";
+}
+
+.Mark:hover::before {
+    content: "JAMES HETFIELD";
+}
+
+.iconBlock3 p,
+.iconBlock4 p {
+    display: none;
+}
+.iconBlock3 div:hover p,
+.iconBlock4 div:hover p {
+    display: block;
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    z-index: 20;
+}
+.footerBlock h2{
+    color: dimgray;
+}
+.iconBlock5{
+    margin-bottom: 100px;
+    display: flex;
+    float: left;
+    justify-content: flex-end;
+}
+.iconBlock6{
+    margin-bottom: 100px;
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+}
+.iconText1{
+    width: 100%;
+    margin-left: 50px;
+    padding: 50px
+}
+.iconText1 h2{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.iconText1 p{
+    font-size: 18px;
+}
+.iconText1 hr{
+    width: 300px;
+    color: dimgray;
+    border-width: 2px;
+    border-color: dimgray;
+}
+.iconText1 span{
+   font-size: 14px;
+    color: dimgray;
+}
+.iconText1 ul li{
+    font-size: 16px;
+    margin: 4px;
+}
+.image5{
+    height: 80px;
+    width: 23%;
+    background-image: url('images/pantera.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    float: left;
+    margin: 2px;
+}
+.image6{
+    height: 80px;
+    width: 24%;
+    background-image: url('images/metallica.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    float: left;
+    margin: 2px;
+}
+.image7{
+    height: 80px;
+    width: 23%;
+    background-image: url('images/deftones.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    float: left;
+    margin: 2px;
+}
+.image8{
+    height: 80px;
+    width: 23%;
+    background-image: url('images/korn.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    float: left;
+    margin: 2px;
+}
+.image-container1{
+    padding:0;
+
+}
+.footer{
+    background-color: #252525;
+    height: 350px;
+}
+.footer p{
+    color: white;
+}
+.footer ul{
+    color: white;
+}
+.footer ul li span{
+    color: white;
+}
+footer{
+    height: 100px;
+    background-color: #1c1c1c;
+    margin:0;
+    padding: 0;
+    display: flex;
+    float: left;
+}
+footer p{
+    font-size: 18px;
+    color: dimgray;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.sprite{
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 3px; margin-right: 5px; margin-left: 5px;
+}
+.blue{
+    background-color: dodgerblue;
+}
+.violet{
+    background-color: darkviolet;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.sprites{
+    display: flex;
+    float: left;
+}
+.gray{
+    background-color: #151515;
+    margin-left: 100px;
+    color: white;
+    text-align: center;
+    padding: 7px;
+
+}
+.lightblue{
+    background-color: lightskyblue;
+}
+.sprites{
+    position: absolute;
+    right: 30px;
+}
+@media (width >= 768px) and (max-width: 1200px){
+    .iconBlock1{
+        justify-content: center;
+    }
+    .iconBlock2{
+        justify-content: center;
+    }
+    .iconBlock3{
+        justify-content: center;
+    }
+    .iconBlock4
+    {
+        justify-content: center;
+    }
+    .container{
+        height: 300px;
+    }
+    .carousel-inner{
+        height: 300px;
+    }
+    .carousel-indicators{
+        margin-bottom: 20px;
+    }
+    .carousel-caption{
+        bottom: 50px;
+    }
+    .navbar{
+        height: 150px;
+    }
+    .nav{
+        justify-content: center;
+       padding: 0;
+        bottom:50px;
+    }
+    .footer{
+        height: 800px;
+    }
+}
