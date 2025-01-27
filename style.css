@@ -4,9 +4,10 @@
 .navbar{
     margin-bottom: 0;
 }
-.customNav{
+.customNav {
     display: flex;
-    padding-left: 500px;
+    justify-content: center;
+    padding: 20px; 
 }
 .customNav > li {
     height: 100px;
