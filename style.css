@@ -236,7 +236,6 @@ hr{
 }
 .infoContainer2{
     display: flex;
-    float: left;
     justify-items: center;
     justify-content: center;
     background-color: green;
